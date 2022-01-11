@@ -1,0 +1,24 @@
+.Storie{
+    margin-left: 15%;
+    margin-right: 35%;
+    display: flex;
+    background-color: #FFFF;
+    border: 1px solid #DBDBDB;
+    margin-top: 100px;
+    /* padding: 16px 0 0 0; */
+    width: 600px;
+    height: 118px;
+}
+.storieItem{
+    padding-left: 15px;
+}
+  .Item{
+      border-radius: 50%;
+      border: 2px solid transparent;
+      background: linear-gradient(to right, red, purple); 
+      margin: 10px 5px;
+  }
+p{
+    size: 12px;
+    margin-left: 10px;
+}

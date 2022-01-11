@@ -1,0 +1,38 @@
+.title-avatar{
+    display: flex;
+ 
+}
+.card_title{
+    padding-top: 20px;
+    font-size: 15px;
+    margin-left: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.Card{
+    margin-left: 15%;
+    margin-top: 14px;
+    
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.icons1{
+    margin-left: 8px;
+    justify-content: space-around;
+}
+.icons1-1{
+    margin-left: 8px;
+}
+.text-muted{
+    margin-left: -20px;
+    margin-right: -20px;  
+    height: 53px;
+    display: flex;
+    justify-content: space-between;
+}
+.comm1{
+    display: flex;
+}

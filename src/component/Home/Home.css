@@ -1,0 +1,21 @@
+.item-Card{
+  margin-left:80px;  
+    
+}
+.item-profil{
+    
+   /* margin-right: 30px; */
+   right: 250px;
+   position: fixed;
+   margin-top: 100px;
+}
+.item-profil p{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 3px;
+  
+}
+.item-profil Button{
+ 
+  font-size: 12px;  
+}
