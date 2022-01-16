@@ -1,4 +1,4 @@
-import { ADD_USER, DELETE_USER, EDIT_USER } from "../types";
+import { ADD_USER, DELETE_USER, EDIT_USER } from "../Types";
 
 export const UserAdd = (payload) => ({
     type: ADD_USER,
@@ -9,7 +9,7 @@ export const UserDelete = (payload) => ({
     payload
 })
 export const UserEdit = (payload) => ({
-    type: EDIT_USER,
+    type:  EDIT_USER,
     payload
 })
 

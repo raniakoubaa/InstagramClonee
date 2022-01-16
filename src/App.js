@@ -8,7 +8,9 @@ import './App.css'
 import Login from './component/Login/Login';
 
 import Compte from './component/Compte/Compte';
-import CardProfil from './component/CardProfil/CardProfil';
+import ProfilDetail from './component/ProfilDetail/ProfilDetail';
+import ProfilEdit from './component/ProfilEdit/ProfilEdit';
+
 
 function App() {
 
@@ -19,9 +21,10 @@ function App() {
       <Header/>
         <Routes>
           <Route path="/" element={<div><Home/><Footer/> </div>}/>
-          <Route path="/CardProfil" element={<CardProfil/>}/>
+          <Route path="/detail/:id" element={<ProfilDetail/>}/> 
           <Route path="/Login" element={<Login/>}/>
           <Route path="/profil/:id" element={<Compte/>}/>
+          <Route path="/edit/:id" element={<ProfilEdit/>}/>
         </Routes>
         {/* <Footer/> */}
       </Router>      
